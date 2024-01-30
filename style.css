@@ -1,0 +1,347 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ font-family: "Trebuchet MS", Sans-Serif;
+ margin-bottom: 5em;
+ background-color: rgb(66, 33, 11);
+}
+
+/* style for the top of first page */
+.homehead {
+  margin-right: 12%;
+  margin-left: 12%;
+  font-size: 25px;
+  font-weight: none;
+  text-align: center;
+  line-height: 1.8em;
+  color:white;
+  font-style: italic;
+}
+#homehead2 {
+  margin-right: 8%;
+  margin-left: 8%;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 8em;
+  color:white;
+  font-style:italic;
+}
+
+#home {
+  margin-right: 0em;
+  margin-left: 0em;
+  color: rgb(255, 208, 187) ;
+  font-size: 50px;
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-top: 2.2em;
+  padding-bottom: 1.2em;
+  font-style: normal;
+}
+/* style for reasons for caring */
+#care{
+display: block;
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+padding: 4em;
+font-size:35px;
+color:rgb(255, 208, 187)
+}
+
+/* STYLE TEXT */
+
+/* nav bar and other lists */
+.links{
+  list-style-type: none;
+  background-color: rgb(141, 110, 106);
+  overflow:hidden;
+  padding:1em;
+  font-size:16px;
+  text-align:right;
+  text-decoration:none;
+}
+.items {
+  display: inline;
+  text-align: right;
+}
+.links .items a{
+  text-decoration: none;
+  color: rgb(233, 215, 214);
+  font-size: 1.1em;
+  padding: 1em;
+  border-radius: 5%;
+}
+.items a:hover {
+  background-color:rgb(133, 101, 100);
+  border-radius: 5%;
+}
+.refer{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  line-height:2em;
+  margin-left: 12%;
+  font-size:18px;
+  padding-top:2em;
+  margin-right: 12%;
+  background-image: url("https://www.iied.org/sites/default/files/styles/one-page-scale-940/public/2020-05-07_global_climate_strike.jpg?itok=hTEHjOXx");
+  background-attachment:fixed;
+  background-blend-mode:multiply;
+  background-color: rgb(124, 67, 67);
+  padding-bottom: 2em;
+}
+.refer:hover {
+  color:rgb(241, 235, 233);
+}
+
+.frame {
+  height: 20em;
+  align-items: center;
+  width: 20em;
+  object-fit: cover;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom:4em;
+  margin-left:2.5em;
+  margin-right:1em;
+} 
+.frame:hover {
+  background-color: rgb(138, 101, 101);
+  padding-top:1em;
+  padding-left:1em;
+  padding-right:1em;
+  padding-bottom: 4em;
+}
+#intro{
+  padding-right: 18%;
+  padding-left: 18%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-top:3em;
+  margin-bottom:3em;
+  text-indent: 2em;
+  line-height: 1.8em;
+  font-size: 20px;
+  color: white;
+  background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_44/2625791/181031-depression-mn-1030.jpg");
+  background-position: 50% 5%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-blend-mode:multiply;
+  background-color: rgb(204, 145, 145);
+  
+}
+
+.help{
+  text-align: center;
+  margin-left:12%;
+  margin-right:12%;
+  padding:2em;
+  line-height:1.8em;
+  font-size:25px;
+  color:white;
+  font-style:italic;
+}
+
+#helptitle{
+  padding-top:3.5em;
+  padding-bottom:.6em;
+  font-weight:bold;
+  font-size:50px;
+  color: rgb(255, 208, 187) ;
+  font-style:normal;
+}
+.learn{
+  text-align: center;
+  margin-left:12%;
+  margin-right:12%;
+  padding-bottom:2em;
+  padding-top:2em;
+  line-height:1.8em;
+  font-size:25px;
+  color:white;
+  font-style:normal;
+}
+#learntitle{
+  padding-top:2.5em;
+  padding-bottom:0em;
+  margin-left:20%;
+  margin-right:20%;
+  font-weight:bold;
+  font-size:50px;
+  color: rgb(255, 208, 187) ;
+  font-style:normal;
+  text-align:center;
+}
+
+/* STYLE IMAGES */
+#march{
+  background-image: url("https://morningstaronline.co.uk/sites/default/files/styles/article_full/public/12-fashion_protest.jpg?itok=B1Wpgax8");
+  margin-right:0px;
+  margin-left:0px;
+  padding-top: 15em;
+  padding-bottom: 8em;
+  background-attachment: fixed;
+  margin-bottom: 8%;
+  margin-top:30%;
+  background-blend-mode:multiply;
+  background-color: rgb(204, 145, 145);
+  background-position: center;
+
+
+}
+#protest{
+  margin-left:4em;
+  margin-right: 38em;
+  line-height:1.8em;
+  font-size:20px;
+  color:white;
+}
+/* trying to make columns */
+#actioninging{
+  float:right;
+  margin-right:3.9%;
+  padding-bottom:3em;
+}
+#factory{
+  margin-left:35em;
+  margin-right: 4em;
+  line-height:1.8em;
+  font-size:20px;
+  color:white;
+  float:right;
+  clear:both;
+  
+}
+#factorying{
+  float:left;
+  margin-left:4.2em;
+  padding-bottom:3em;
+  max-inline-size: 45%;
+  display:block;
+  margin-top:-24em;
+}
+#thrift{
+  margin-left:4em;
+  margin-right: 35em;
+  line-height:1.8em;
+  font-size:20px;
+  color:white;
+  clear:both;
+  float:left;
+  margin-top:-24em;
+  margin-bottom: 4em;
+}
+#thrifting{
+  float:right;
+  margin-right:4.2em;
+  padding-bottom:3em;
+  max-inline-size: 45%;
+  display:block;
+}
+#last{
+   line-height:1.8em;
+  font-size:20px;
+  color:white;
+  margin-top:55em;
+  text-align: center;
+}
+
+.click{
+  color:blanchedalmond;
+}
+.reasons{
+  font-size:20px;
+  color:white;
+  line-height: 2em;
+  margin-top:5em;
+  margin-bottom:5em;
+  padding-top:5em;
+  padding-bottom:5em;
+  padding-left:5em;
+  padding-right:5em;
+  text-indent:2em;
+}
+#r1{
+  margin-top:4em;
+  background-image: url("https://homemadelovely.com/wp-content/uploads/2012/10/seasonal-clothes-storage.jpg");
+  background-attachment: fixed;
+  background-blend-mode:multiply;
+  background-color: rgb(146, 86, 86);
+  background-position: center;
+  line-height:2em;
+}
+#r2{
+  background-image: url("https://homemadelovely.com/wp-content/uploads/2012/10/seasonal-clothes-storage.jpg");
+  background-attachment: fixed;
+  background-blend-mode:multiply;
+  background-color: rgb(146, 86, 86);
+  background-position: center;
+  line-height:2em;
+}
+#r3{
+  background-image: url("https://homemadelovely.com/wp-content/uploads/2012/10/seasonal-clothes-storage.jpg");
+  background-attachment: fixed;
+  background-blend-mode:multiply;
+  background-color: rgb(146, 86, 86);
+  background-position: center;
+  line-height:2em;
+}
+#r4{
+  background-image: url("https://homemadelovely.com/wp-content/uploads/2012/10/seasonal-clothes-storage.jpg");
+  background-attachment: fixed;
+  background-blend-mode:multiply;
+  background-color: rgb(146, 86, 86);
+  background-position: center;
+  line-height:2em;
+}
+.learnFact{
+padding-left:4em;
+padding-right:4em;
+padding-top:2em;
+padding-bottom:2em;
+margin-bottom:2em;
+display: block;
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+background-color: rgb(199, 124, 124);
+color:white;
+font-size:25px;
+font-family: "Trebuchet MS", Sans-Serif;
+}
+#myButton:hover{
+  background-color:rgb(255, 127, 127);
+}
+#fact{
+color:white;
+font-size:25px;
+text-align:center;
+margin-left:12%;
+margin-right:12%;
+padding-bottom:4.5em;
+line-height:1.8em;
+padding-top:3.5em;
+font-style:italic;
+}
+#me{
+color:white;
+font-size:25px;
+text-align:center;
+margin-left:17%;
+margin-right:17%;
+line-height:3em;
+margin-top:10%;
+}
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
